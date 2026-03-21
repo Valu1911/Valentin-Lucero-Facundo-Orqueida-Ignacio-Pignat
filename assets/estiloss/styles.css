@@ -14,4 +14,25 @@ h6 {
   color: aqua;
   letter-spacing: 10px;
   text-align: center;
+  text-decoration: line-through;
+  font-family: "Times New Roman", Times, serif;
+}
+section {
+  background-color: green;
+  width: 50%;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 10px 0px 108px 21px rgba(45, 158, 219, 0.75);
+  -webkit-box-shadow: 10px 0px 108px 21px rgba(45, 158, 219, 0.75);
+  -moz-box-shadow: 10px 0px 108px 21px rgba(45, 158, 219, 0.75);
+  border: 10px solid black;
+  color: white;
+  padding: 20px;
+  transition: 1s all ease-in-out;
+}
+
+section:hover {
+  transform: scale(1.2);
+  transition: 1s all ease-in-out;
 }

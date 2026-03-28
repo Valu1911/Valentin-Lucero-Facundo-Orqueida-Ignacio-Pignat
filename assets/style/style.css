@@ -61,15 +61,7 @@ img:hover {
   transform: scale(1.1);
   transition: 1s all ease-in-out;
 }
-ul {
-  color: white;
-}
-li {
-  list-style: none;
-  text-align: center;
-  margin-bottom: 7px;
-  margin-top: 1, 5%;
-}
+
 footer {
   color: white;
 }
@@ -91,4 +83,28 @@ nav {
 li:hover {
   transform: scale(1.1);
   transition: 1s all ease-in-out;
+}
+
+.hobbies {
+  color: white;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: 1, 5%;
+}
+.rojo {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: monospace;
+  text-align: center;
+  color: rgb(250, 4, 4);
+  font-size: 17px;
+}
+.si {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: rgb(80, 242, 234);
+  font-size: 20px;
 }

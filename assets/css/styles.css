@@ -56,7 +56,7 @@ li {
   width: 200px;
   border-radius: 8px;
   border: 0.5px solid #c2c0b6;
-  margin-top: 3px;
+  margin-top: 3.5px;
 
   background-color: #141414;
   display: flex;
@@ -71,7 +71,7 @@ li {
   width: 150px;
   border-radius: 8px;
   border: 0.2px solid #141414;
-  margin-top: 3px;
+  margin-top: 3.5px;
 
   background-color: white;
   display: flex;

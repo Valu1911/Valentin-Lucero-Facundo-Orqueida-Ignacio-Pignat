@@ -1,0 +1,61 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 560px 560px;
+  gap: 20px;
+  background-color: black;
+}
+.pantalones {
+  margin-top: 90px;
+  background-color: rgba(172, 170, 170, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: white;
+}
+.relojes {
+  margin-top: 70px;
+  background-color: rgba(172, 170, 170, 0.5);
+  border-radius: 10px;
+}
+.medio {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.derecha {
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.izquierda {
+  margin-left: 40px;
+  border-radius: 10px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(30, 30, 33);
+}
+.boton {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.descrip {
+  margin-top: 10px;
+}
+.imagenes {
+  width: 80%;
+  height: 280px;
+  display: flex;
+  justify-content:;
+}

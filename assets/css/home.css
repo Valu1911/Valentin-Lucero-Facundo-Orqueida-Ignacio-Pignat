@@ -11,6 +11,7 @@
   padding-left: 400px;
 }
 
+
 .izq {
   margin-top: 1px;
   background-color: #141414;
@@ -29,12 +30,13 @@
   transform: translateX(-150px);
 }
 
+
 .box-formulario {
   border: 1px solid #545350;
   border-radius: 30px;
-  padding: 35px;
+  padding: 40px;
   width: 100%;
-  max-width: 380px;
+  max-width: 420px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -42,11 +44,12 @@
 
 .div-formulario {
   width: 100%;
-  max-width: 420px;
+  max-width: 440px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
+
 
 .der {
   margin-top: 10px;
@@ -71,43 +74,46 @@
   object-position: center;
 }
 
+
 .fuentes {
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: x-large;
   display: flex;
   justify-content: center;
 }
 
 .fuente-grande {
-  font-size: 52px;
+  font-size: 58px;
   color: white;
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .subtitulo {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
   color: #c2c0b6;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  max-width: 420px;
+  margin-top: 18px;
+  margin-bottom: 35px;
+  max-width: 460px;
 }
+
 
 .btn-google {
   width: 100%;
-  padding: 14px 20px;
+  padding: 16px 22px;
   background-color: transparent;
   border: 1px solid #545350;
-  border-radius: 10px;
+  border-radius: 12px;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .btn-google:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: black;
+  border-color: #888;
 }
 
 .div-email {
@@ -117,26 +123,34 @@
 }
 
 .input-email {
-  padding: 14px 20px;
+  padding: 16px 22px;
   background-color: #383737;
   color: aliceblue;
   border: 1px solid #545350;
-  border-radius: 10px;
+  border-radius: 12px;
 }
+
 
 .btn-email {
-  margin-top: 8.5px;
-  padding: 14px;
-  background-color: white;
+  margin-top: 10px;
+  padding: 16px;
+  background-color: #ffffff;
   border: none;
-  border-radius: 10px;
-  color: #141414;
+  border-radius: 12px;
+  color: #1a1a1a;
   font-weight: 600;
+  font-size: 16px;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
+.btn-email:hover {
+  background-color: #eaeaea;
+}
+
+
 .texto-privacidad {
-  font-size: 11px;
+  font-size: 12px;
   color: #969696;
   text-align: center;
   margin-bottom: -10px;
@@ -149,35 +163,46 @@
 }
 
 .link-descarga {
-  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
   color: white;
   border: 1px solid #545350;
-  border-radius: 10px;
-  padding: 10px 20px;
+  border-radius: 12px;
+  padding: 12px 24px;
   display: inline-block;
   width: auto;
   white-space: nowrap;
-  text-decoration: 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
+
+.link-descarga:hover {
+  background-color: black;
+  border-color: #3e3e3e;
+}
+
+
 .google {
-  width: 5.5%;
+  width: 5%;
   height: 17px;
   margin-bottom: -2px;
   margin-right: 8px;
 }
+
 .windows {
-  width: 8.5%;
+  width: 8%;
   height: 20px;
   padding-top: 5px;
   margin-right: 8px;
   margin-bottom: -5px;
 }
+
 .textos {
   padding-top: 3px;
 }
+
 .o {
   font-size: large;
-  font-width: 100px;
   margin-top: -10px;
   margin-bottom: -10px;
   color: #969696;

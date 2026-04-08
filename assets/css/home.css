@@ -6,14 +6,13 @@
   grid-template-rows: auto;
   gap: 100px;
   background-color: #141414;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   padding-left: 400px;
 }
 
-
 .izq {
-  margin-top: 1px;
+  margin-top: 20px;
   background-color: #141414;
   border-radius: 10px;
   display: flex;
@@ -30,14 +29,14 @@
   transform: translateX(-150px);
 }
 
-
 .box-formulario {
   border: 1px solid #545350;
   border-radius: 30px;
-  padding: 40px;
-  width: 100%;
-  max-width: 420px;
-  margin-top: 20px;
+  padding: 35px;
+  width: 65%;
+  max-width: 400px;
+  margin-top: 15px;
+  height: 27%;
   display: flex;
   justify-content: center;
 }
@@ -50,7 +49,6 @@
   gap: 16px;
 }
 
-
 .der {
   margin-top: 10px;
   background-color: rgba(172, 170, 170, 0.5);
@@ -59,8 +57,8 @@
   flex-direction: column;
   justify-content: center;
   height: 820px;
-  width: 120%;
-  min-width: 750px;
+  width: 90%;
+  min-width: 700px;
   overflow: hidden;
   color: white;
   margin-left: -80px;
@@ -73,7 +71,6 @@
   width: 100%;
   object-position: center;
 }
-
 
 .fuentes {
   font-family: "Playfair Display", serif;
@@ -90,14 +87,12 @@
 }
 
 .subtitulo {
-  font-family: "Inter", sans-serif;
   font-size: 18px;
-  color: #c2c0b6;
+  color: #ffffff;
   margin-top: 18px;
   margin-bottom: 35px;
   max-width: 460px;
 }
-
 
 .btn-google {
   width: 100%;
@@ -125,11 +120,12 @@
 .input-email {
   padding: 16px 22px;
   background-color: #383737;
-  color: aliceblue;
+  color: rgb(140, 142, 144);
   border: 1px solid #545350;
   border-radius: 12px;
+  font-size: 16px;
+  font-width: 5px;
 }
-
 
 .btn-email {
   margin-top: 10px;
@@ -137,7 +133,7 @@
   background-color: #ffffff;
   border: none;
   border-radius: 12px;
-  color: #1a1a1a;
+  color: #5a5858;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -147,7 +143,6 @@
 .btn-email:hover {
   background-color: #eaeaea;
 }
-
 
 .texto-privacidad {
   font-size: 12px;
@@ -180,7 +175,6 @@
   background-color: black;
   border-color: #3e3e3e;
 }
-
 
 .google {
   width: 5%;

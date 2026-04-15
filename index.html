@@ -15,28 +15,59 @@
     <title>Tailwind</title>
   </head>
   <body>
-    <section>
+    <section class="w-[80%] mx-auto">
       <div class="flex justify-center w-80">
-        <img class="translate-x-90 mt-40" src="./assets/imagenes/logo1.png" />
+        <img class="mt-40" src="./assets/imagenes/logo1.png" />
       </div>
-      <h1 class="translate-x-90 mt-15 font-black text-7xl">
+      <h1 class="mt-15 font-black text-7xl">
         Rapidly build modern websites
       </h1>
-      <h1 class="translate-x-90 font-black text-7xl">
+      <h1 class="font-black text-7xl">
         without ever leaving your HTML.
       </h1>
-      <p class="translate-x-90 text-2xl mt-13">
-        A utility-first CSS framework packed with classes like flex, pt-4,
-        text-center and
+
+     
+      <p class=" font-medium   text-gray-500 inline-block text-2xl mt-13">
+        A utility-first CSS framework packed with classes like <p class=" ml-2 mr-1 text-2xl inline-block font-bold">flex</p>, <p class="ml-1.5 mr-1 text-2xl inline-block font-bold">pt-4</p>,
+        <p class="ml-1.5 mr-2 text-2xl inline-block font-bold">text-center</p><p class="font-medium text-gray-500 text-2xl inline-block"> and
       </p>
-      <p class="translate-x-90 text-2xl">
-        rotate-90 that can be composed to build any design, directly in your
-        markup.
+      <section>
+      <p class=" text-2xl inline-block">
+        <p class="mr-2 inline-block text-2xl font-bold">rotate-90</p><p class="font-medium text-gray-500 text-2xl inline-block"> that can be composed to build any design, directly in your
+        markup.</p>
       </p>
+      </section>
+
+      <section class="flex">
+      <div
+        class="w-38 h-13 bg-black mt-13 border rounded-xl hover:bg-gray-800 cursor-pointer"
+      >
+        <p class="text-white flex justify-center text-xl font-medium mt-2.5">
+          Get started
+        </p>
+      </div>
+      <div
+        class="translate-x-5 w-75 h-13 bg-gray-100 mt-13 border-gray-300 rounded-xl cursor-pointer"
+      >
+        <p
+          class=" ml-[-30px] text-gray-800 not-italic flex justify-center text-xl mt-2.5"
+        >
+          $ npm install tailwindcss
+        </p>
+        <svg
+          class="translate-x-63 translate-y-[-25px] text-gray-500 cursor-pointer hover:text-black"
+          width="24"
+          height="24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+        >
+          <path
+            d="M8 16c0 1.886 0 2.828.586 3.414C9.172 20 10.114 20 12 20h4c1.886 0 2.828 0 3.414-.586C20 18.828 20 17.886 20 16v-4c0-1.886 0-2.828-.586-3.414C18.828 8 17.886 8 16 8m-8 8h4c1.886 0 2.828 0 3.414-.586C16 14.828 16 13.886 16 12V8m-8 8c-1.886 0-2.828 0-3.414-.586C4 14.828 4 13.886 4 12V8c0-1.886 0-2.828.586-3.414C5.172 4 6.114 4 8 4h4c1.886 0 2.828 0 3.414.586C16 5.172 16 6.114 16 8"
+          ></path>
+        </svg>
+      </div>
     </section>
-    <section>
-      <div class="w-20 h-20 bg-black"></div>
-      <div></div>
     </section>
   </body>
 </html>

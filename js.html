@@ -3,9 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1ST JS</title>
+    <title>Counter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <h1 class="text-3xl font-bold text-center mt-10">kiosco</h1>
+    <div class="grid-rows-2 flex justify-center mt-10">
+      <img class="w-80 h-80" src="./assets/imgs/yerbareal.png" />
+      <img class="ml-50 w-80 h-80" src="./assets/imgs/don saturnino.png" />
+    </div>
+    <div class="mr-130 flex justify-center mt-10">
+      <button id="decrement" class="bg-red-500 text-white px-4 py-2 rounded">
+        Quitar
+      </button>
+      <span id="counter" class="mx-4 text-2xl">0</span>
+      <button id="increment" class="bg-green-500 text-white px-4 py-2 rounded">
+        Agregar
+      </button>
+    </div>
+    <div class="ml-130 flex justify-center -mt-10">
+      <button id="decrement2" class="bg-red-500 text-white px-4 py-2 rounded">
+        Quitar
+      </button>
+      <span id="counter2" class="mx-4 text-2xl">0</span>
+      <button id="increment2" class="bg-green-500 text-white px-4 py-2 rounded">
+        Agregar
+      </button>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>

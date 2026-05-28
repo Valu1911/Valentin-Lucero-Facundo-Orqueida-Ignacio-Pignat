@@ -1,19 +1,48 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Vender</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
-  <body>
-    <header class="bg-gray-800 text-white p-4">
-      <h1 id="hamburger" class="w-20 text-2xl font-bold">HOLA</h1>
-      <div id="skibidi" class="w-40 h-40 bg-black hidden"></div>
+  <body class="fondo">
+    <header class="head bordehead">
+      <div>
+        <h1 class="texto titulo">TechStore</h1>
+      </div>
+      <div class="contenedor">
+        <h2 class="texto carritox">Carrito</h2>
+
+        <div class="fondonumcar carrito">
+          <h1 id="counter" class="textocarrito">0</h1>
+        </div>
+      </div>
     </header>
+    <div class="imagen">
+      <div class="sombratarjeta">
+        <img src="./assets/auris.png" alt="auris" class="img" />
+      </div>
 
-    <img class="ml-170 mt-50" src="./assets/imagenes/hambur.avif" alt="adsad" />
-
-    <script src="main.js"></script>
+      <div class="fondotarjetaproducto sombratarjeta sizetarjeta">
+        <h1 class="categoriaproducto">NUEVO LANZAMIENTO</h1>
+        <h2 class="tituloproducto">Auriculares Pulse</h2>
+        <h2 class="tituloproducto pro">Pro</h2>
+        <p class="descripcionproducto pecausa2">Lorem ipsum dolor sit</p>
+        <p class="descripcionproducto pecausa">
+          lorem ipsum dolor sit, amet consectetur adipisicing
+        </p>
+        <p class="descripcionproducto pecausa">
+          lorem ipsum, dolor sit amet consectetur adipisicing
+        </p>
+        <h2 class="precio">$89.999</h2>
+        <div class="fondoboton sombraboton hoverboton">
+          <button id="increment" class="boton textoboton">
+            Agregar al carrito
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
